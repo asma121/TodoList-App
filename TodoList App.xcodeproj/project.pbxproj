@@ -14,6 +14,10 @@
 		840CE1D7276E1CDD004C0A64 /* TodoList_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 840CE1D5276E1CDD004C0A64 /* TodoList_App.xcdatamodeld */; };
 		840CE1D9276E1CE1004C0A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840CE1D8276E1CE1004C0A64 /* Assets.xcassets */; };
 		840CE1DC276E1CE1004C0A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840CE1DA276E1CE1004C0A64 /* LaunchScreen.storyboard */; };
+		840CE1E4276E1F22004C0A64 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CE1E3276E1F22004C0A64 /* TableViewController.swift */; };
+		840CE1E6276E4016004C0A64 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CE1E5276E4016004C0A64 /* TableViewCell.swift */; };
+		840CE1E9276E4EB4004C0A64 /* ItemEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CE1E7276E4EB4004C0A64 /* ItemEntity+CoreDataClass.swift */; };
+		840CE1EA276E4EB4004C0A64 /* ItemEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CE1E8276E4EB4004C0A64 /* ItemEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		840CE1D8276E1CE1004C0A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840CE1DB276E1CE1004C0A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840CE1DD276E1CE1004C0A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840CE1E3276E1F22004C0A64 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		840CE1E5276E4016004C0A64 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		840CE1E7276E4EB4004C0A64 /* ItemEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		840CE1E8276E4EB4004C0A64 /* ItemEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		840CE1C0276E1CDD004C0A64 = {
 			isa = PBXGroup;
 			children = (
+				840CE1E7276E4EB4004C0A64 /* ItemEntity+CoreDataClass.swift */,
+				840CE1E8276E4EB4004C0A64 /* ItemEntity+CoreDataProperties.swift */,
 				840CE1CB276E1CDD004C0A64 /* TodoList App */,
 				840CE1CA276E1CDD004C0A64 /* Products */,
 			);
@@ -61,6 +71,8 @@
 				840CE1CC276E1CDD004C0A64 /* AppDelegate.swift */,
 				840CE1CE276E1CDD004C0A64 /* SceneDelegate.swift */,
 				840CE1D0276E1CDD004C0A64 /* ViewController.swift */,
+				840CE1E3276E1F22004C0A64 /* TableViewController.swift */,
+				840CE1E5276E4016004C0A64 /* TableViewCell.swift */,
 				840CE1D2276E1CDD004C0A64 /* Main.storyboard */,
 				840CE1D8276E1CE1004C0A64 /* Assets.xcassets */,
 				840CE1DA276E1CE1004C0A64 /* LaunchScreen.storyboard */,
@@ -142,8 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				840CE1D1276E1CDD004C0A64 /* ViewController.swift in Sources */,
+				840CE1E9276E4EB4004C0A64 /* ItemEntity+CoreDataClass.swift in Sources */,
 				840CE1CD276E1CDD004C0A64 /* AppDelegate.swift in Sources */,
 				840CE1CF276E1CDD004C0A64 /* SceneDelegate.swift in Sources */,
+				840CE1E6276E4016004C0A64 /* TableViewCell.swift in Sources */,
+				840CE1EA276E4EB4004C0A64 /* ItemEntity+CoreDataProperties.swift in Sources */,
+				840CE1E4276E1F22004C0A64 /* TableViewController.swift in Sources */,
 				840CE1D7276E1CDD004C0A64 /* TodoList_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
