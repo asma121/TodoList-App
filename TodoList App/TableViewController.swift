@@ -102,23 +102,6 @@ extension TableViewController {
             print(error.localizedDescription)
         }
     }
-//
-//    func updateItem(oldItemTitle:String , newItemText:String){
-//            let context = getContext()
-//            let request = NSFetchRequest<ItemEntity>.init(entityName: "ItemEntity")
-//            let predicate = NSPredicate.init(format: "text == %@", oldItemText)
-//        request.predicate = predicate
-//
-//        do{
-//            let arr = try context.fetch(request)
-//            let item = arr.first
-//            item?.text = newItemText
-//            try context.save()
-//            getItem()
-//        }catch{
-//            print(error.localizedDescription)
-//        }
-//    }
 
     func deleteItem(itemTitle : String ){
         let context = getContext()
